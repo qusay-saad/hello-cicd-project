@@ -1,0 +1,21 @@
+{
+  "name": "hello-devops-app",
+  "version": "1.0.0",
+  "description": "Simple CI/CD Learning Project\r Project idea: \"Hello DevOps App\"",
+  "main": "app.js",
+
+  "scripts": {
+   "start":"node app.js",
+   "test":"jest",
+   "test2": "echo \"Error: no test specified\" && exit 1"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
